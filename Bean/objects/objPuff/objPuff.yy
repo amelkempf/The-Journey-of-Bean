@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprPuff",
+    "path": "sprites/sprPuff/sprPuff.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object1",
+  "name": "objPuff",
   "tags": [],
   "resourceType": "GMObject",
 }
