@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprAdvBean",
-    "path": "sprites/sprAdvBean/sprAdvBean.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -28,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objBeanAdv",
+  "name": "objCloud",
   "tags": [],
   "resourceType": "GMObject",
 }
