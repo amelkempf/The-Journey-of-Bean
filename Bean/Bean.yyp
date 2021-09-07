@@ -1,15 +1,18 @@
 {
   "resources": [
     {"id":{"name":"sprPuffRun","path":"sprites/sprPuffRun/sprPuffRun.yy",},"order":2,},
+    {"id":{"name":"objBeanAdv","path":"objects/objBeanAdv/objBeanAdv.yy",},"order":2,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
-    {"id":{"name":"sprAdvBeanRun9","path":"sprites/sprAdvBeanRun9/sprAdvBeanRun9.yy",},"order":9,},
+    {"id":{"name":"sprAdvBeanRun1","path":"sprites/sprAdvBeanRun1/sprAdvBeanRun1.yy",},"order":9,},
     {"id":{"name":"sprHomeBeanRun","path":"sprites/sprHomeBeanRun/sprHomeBeanRun.yy",},"order":8,},
     {"id":{"name":"sprHomeBean","path":"sprites/sprHomeBean/sprHomeBean.yy",},"order":7,},
     {"id":{"name":"sprPuffJump","path":"sprites/sprPuffJump/sprPuffJump.yy",},"order":3,},
     {"id":{"name":"objPuff","path":"objects/objPuff/objPuff.yy",},"order":0,},
     {"id":{"name":"sprPuffAtk","path":"sprites/sprPuffAtk/sprPuffAtk.yy",},"order":5,},
+    {"id":{"name":"objBeanHome","path":"objects/objBeanHome/objBeanHome.yy",},"order":1,},
     {"id":{"name":"sprPuff","path":"sprites/sprPuff/sprPuff.yy",},"order":1,},
     {"id":{"name":"sprAdvBean","path":"sprites/sprAdvBean/sprAdvBean.yy",},"order":6,},
+    {"id":{"name":"sprAdvBeanRun2","path":"sprites/sprAdvBeanRun2/sprAdvBeanRun2.yy",},"order":10,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
