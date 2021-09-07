@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprCloud1",
+    "path": "sprites/sprCloud1/sprCloud1.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

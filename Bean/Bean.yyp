@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sprPuffRun","path":"sprites/sprPuffRun/sprPuffRun.yy",},"order":2,},
+    {"id":{"name":"sprAdvBeanAtk","path":"sprites/sprAdvBeanAtk/sprAdvBeanAtk.yy",},"order":11,},
     {"id":{"name":"objBeanAdv","path":"objects/objBeanAdv/objBeanAdv.yy",},"order":2,},
     {"id":{"name":"sprCloud1","path":"sprites/sprCloud1/sprCloud1.yy",},"order":0,},
     {"id":{"name":"sprAdvBeanRun1","path":"sprites/sprAdvBeanRun1/sprAdvBeanRun1.yy",},"order":9,},
