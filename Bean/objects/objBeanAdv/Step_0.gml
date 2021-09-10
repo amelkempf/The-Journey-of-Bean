@@ -38,7 +38,7 @@ image_speed = 0;
 //moving
 if (moveH != 0){
 	image_speed = 1;
-	sprite_index = sprHomeBeanRun;
+	sprite_index = sprAdvBeanRun2;
 	if (mLeft){
 		image_xscale = -1;
 	}
@@ -50,7 +50,7 @@ if (moveH != 0){
 //sitting still
 if (moveH == 0 & moveV == 0){
 	image_speed = 0;
-	sprite_index = sprHomeBean;
+	sprite_index = sprAdvBean;
 	image_index = 0;
 }
 
@@ -59,13 +59,13 @@ if (moveH == 0 & moveV == 0){
 //moving up
 if (vsp < 0){
 	image_speed = 0;
-	sprite_index = sprHomeBean;
+	sprite_index = sprAdvBean;
 	image_index = 1;
 }
 
 //moving down
 if (vsp > 0){
 	image_speed = 0;
-	sprite_index = sprHomeBean;
+	sprite_index = sprAdvBean;
 	image_index = 2;
 }

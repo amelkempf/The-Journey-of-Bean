@@ -7,6 +7,7 @@
     {"id":{"name":"objBeanAdv","path":"objects/objBeanAdv/objBeanAdv.yy",},"order":2,},
     {"id":{"name":"sprCloud1","path":"sprites/sprCloud1/sprCloud1.yy",},"order":0,},
     {"id":{"name":"sprAdvBeanRun1","path":"sprites/sprAdvBeanRun1/sprAdvBeanRun1.yy",},"order":9,},
+    {"id":{"name":"Villiage1","path":"rooms/Villiage1/Villiage1.yy",},"order":1,},
     {"id":{"name":"sprHomeBeanRun","path":"sprites/sprHomeBeanRun/sprHomeBeanRun.yy",},"order":8,},
     {"id":{"name":"objCloud","path":"objects/objCloud/objCloud.yy",},"order":3,},
     {"id":{"name":"sprHomeBean","path":"sprites/sprHomeBean/sprHomeBean.yy",},"order":7,},
@@ -34,6 +35,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Villiage1","path":"rooms/Villiage1/Villiage1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
