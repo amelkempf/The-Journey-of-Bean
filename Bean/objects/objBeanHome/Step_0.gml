@@ -25,9 +25,9 @@ x = x+hsp;
 
 //Vertical Collision
 if(place_meeting(x, y+vsp, objWallHome)){
-	while(!place_meeting(x,y+sign(vsp),objWallHome)){
+	/*while(!place_meeting(x,y+sign(vsp),objWallHome)){
 		y=y+vsp;
-	}
+	}*/
 	vsp=0;
 }
 y=y+vsp;
