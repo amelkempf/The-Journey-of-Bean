@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objBeanAdv",
+    "path": "objects/objBeanAdv/objBeanAdv.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

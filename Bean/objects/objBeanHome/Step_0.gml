@@ -38,3 +38,36 @@ vsp=0;
 y=y+vsp;
 
 //Animation
+
+//moving
+if (move != 0){
+	image_speed = 1;
+	sprite_index = sprHomeBeanRun;
+	if (key_left){
+		image_xscale = -1;
+	}
+	else{
+		image_xscale = 1;
+	}
+}
+
+//sitting still
+if (move == 0 & vsp == 0){
+	image_speed = 0;
+	sprite_index = sprHomeBean;
+	image_index = 0;
+}
+
+//jumping
+if (vsp < 0){
+	image_speed = 0;
+	sprite_index = sprHomeBean;
+	image_index = 1;
+}
+
+//falling
+if (vsp > 0){
+	image_speed = 0;
+	sprite_index = sprHomeBean;
+	image_index = 2;
+}
