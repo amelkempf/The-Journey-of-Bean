@@ -18,7 +18,7 @@
     {"id":{"name":"sprPuff","path":"sprites/sprPuff/sprPuff.yy",},"order":1,},
     {"id":{"name":"sprAdvBean","path":"sprites/sprAdvBean/sprAdvBean.yy",},"order":6,},
     {"id":{"name":"sprAdvBeanRun2","path":"sprites/sprAdvBeanRun2/sprAdvBeanRun2.yy",},"order":10,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"beanHouse","path":"rooms/beanHouse/beanHouse.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -34,7 +34,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"beanHouse","path":"rooms/beanHouse/beanHouse.yy",},},
     {"roomId":{"name":"Villiage1","path":"rooms/Villiage1/Villiage1.yy",},},
   ],
   "Folders": [
