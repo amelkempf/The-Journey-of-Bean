@@ -54,18 +54,17 @@ if (moveH == 0 & moveV == 0){
 }
 
 
-/*
-//jumping
+
+//moving up
 if (vsp < 0){
 	image_speed = 0;
 	sprite_index = sprHomeBean;
 	image_index = 1;
 }
 
-//falling
+//moving down
 if (vsp > 0){
 	image_speed = 0;
 	sprite_index = sprHomeBean;
 	image_index = 2;
 }
-*/
