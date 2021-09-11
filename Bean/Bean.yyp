@@ -3,6 +3,7 @@
     {"id":{"name":"sprPuffRun","path":"sprites/sprPuffRun/sprPuffRun.yy",},"order":2,},
     {"id":{"name":"objWallHome","path":"objects/objWallHome/objWallHome.yy",},"order":4,},
     {"id":{"name":"sprAdvBeanAtk","path":"sprites/sprAdvBeanAtk/sprAdvBeanAtk.yy",},"order":11,},
+    {"id":{"name":"TempWallDec","path":"sprites/TempWallDec/TempWallDec.yy",},"order":14,},
     {"id":{"name":"sprWallHome","path":"sprites/sprWallHome/sprWallHome.yy",},"order":12,},
     {"id":{"name":"objBeanAdv","path":"objects/objBeanAdv/objBeanAdv.yy",},"order":2,},
     {"id":{"name":"sprCloud1","path":"sprites/sprCloud1/sprCloud1.yy",},"order":0,},
