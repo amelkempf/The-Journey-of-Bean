@@ -22,6 +22,7 @@
     {"id":{"name":"sprPuff","path":"sprites/sprPuff/sprPuff.yy",},"order":1,},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":20,},
     {"id":{"name":"sprAdvBean","path":"sprites/sprAdvBean/sprAdvBean.yy",},"order":6,},
+    {"id":{"name":"objBed","path":"objects/objBed/objBed.yy",},"order":5,},
     {"id":{"name":"sprAdvBeanRun2","path":"sprites/sprAdvBeanRun2/sprAdvBeanRun2.yy",},"order":10,},
     {"id":{"name":"sprWindowType1","path":"sprites/sprWindowType1/sprWindowType1.yy",},"order":16,},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":19,},
@@ -69,7 +70,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.577",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "Bean",
