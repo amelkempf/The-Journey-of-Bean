@@ -36,7 +36,7 @@ y=y+vsp;
 image_speed = 0;
 
 //moving
-if (moveH != 0){
+if (mRight || mLeft){
 	image_speed = 1;
 	sprite_index = sprHomeBeanRun;
 	if (mLeft){
@@ -47,8 +47,21 @@ if (moveH != 0){
 	}
 }
 
+//moving up
+else if(vsp < 0){
+	sprite_index = sprHomeBean;
+	image_speed = 0;
+	image_index = 1;
+}
+
+//moving down
+else if(vsp > 0){
+	image_speed = 0;
+	sprite_index = sprHomeBean;
+	image_index = 2;
+}
 //sitting still
-if (moveH == 0 & moveV == 0){
+else if (moveH == 0 & moveV == 0){
 	image_speed = 0;
 	sprite_index = sprHomeBean;
 	image_index = 0;
