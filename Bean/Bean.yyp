@@ -18,6 +18,7 @@
     {"id":{"name":"sprCloudEnemy","path":"sprites/sprCloudEnemy/sprCloudEnemy.yy",},"order":22,},
     {"id":{"name":"TempBackGround","path":"sprites/TempBackGround/TempBackGround.yy",},"order":13,},
     {"id":{"name":"sprBeanVillage","path":"sprites/sprBeanVillage/sprBeanVillage.yy",},"order":21,},
+    {"id":{"name":"sprBossFight","path":"sprites/sprBossFight/sprBossFight.yy",},"order":24,},
     {"id":{"name":"objBeanHome","path":"objects/objBeanHome/objBeanHome.yy",},"order":1,},
     {"id":{"name":"sprPuff","path":"sprites/sprPuff/sprPuff.yy",},"order":1,},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":20,},
