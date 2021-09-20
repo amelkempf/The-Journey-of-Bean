@@ -4,6 +4,7 @@
     {"id":{"name":"objWallHome","path":"objects/objWallHome/objWallHome.yy",},"order":4,},
     {"id":{"name":"sprAdvBeanAtk","path":"sprites/sprAdvBeanAtk/sprAdvBeanAtk.yy",},"order":11,},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"order":18,},
+    {"id":{"name":"tileBossFight","path":"tilesets/tileBossFight/tileBossFight.yy",},"order":1,},
     {"id":{"name":"TempWallDec","path":"sprites/TempWallDec/TempWallDec.yy",},"order":14,},
     {"id":{"name":"sprWallHome","path":"sprites/sprWallHome/sprWallHome.yy",},"order":12,},
     {"id":{"name":"objBeanAdv","path":"objects/objBeanAdv/objBeanAdv.yy",},"order":2,},
@@ -26,6 +27,7 @@
     {"id":{"name":"objBed","path":"objects/objBed/objBed.yy",},"order":5,},
     {"id":{"name":"sprAdvBeanRun2","path":"sprites/sprAdvBeanRun2/sprAdvBeanRun2.yy",},"order":10,},
     {"id":{"name":"sprWindowType1","path":"sprites/sprWindowType1/sprWindowType1.yy",},"order":16,},
+    {"id":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},"order":2,},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":19,},
     {"id":{"name":"sprWyvern","path":"sprites/sprWyvern/sprWyvern.yy",},"order":23,},
     {"id":{"name":"BeanVillage","path":"tilesets/BeanVillage/BeanVillage.yy",},"order":0,},
@@ -47,6 +49,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"beanHouse","path":"rooms/beanHouse/beanHouse.yy",},},
     {"roomId":{"name":"Villiage1","path":"rooms/Villiage1/Villiage1.yy",},},
+    {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":12,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
