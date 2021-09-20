@@ -15,7 +15,9 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objBeanHome","path":"objects/objBeanHome/objBeanHome.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":160.0,"resourceVersion":"1.0","name":"inst_95A053E","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"MainCharacter","tags":[],"resourceType":"GMRInstanceLayer",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objDoorway","path":"objects/objDoorway/objDoorway.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":190.0,"resourceVersion":"1.0","name":"inst_1909C57B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objDoorway","path":"objects/objDoorway/objDoorway.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":152.0,"y":190.0,"resourceVersion":"1.0","name":"inst_18554728","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":2,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"MainCharacter","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"sprWindowType1","path":"sprites/sprWindowType1/sprWindowType1.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_27800055","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"sprWindow2","path":"sprites/sprWindow2/sprWindow2.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":16.0,"resourceVersion":"1.0","name":"graphic_6EF0147D","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -352,6 +354,8 @@
     {"name":"inst_791336A8","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_2E085FC5","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_37AF619B","path":"rooms/beanHouse/beanHouse.yy",},
+    {"name":"inst_1909C57B","path":"rooms/beanHouse/beanHouse.yy",},
+    {"name":"inst_18554728","path":"rooms/beanHouse/beanHouse.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
