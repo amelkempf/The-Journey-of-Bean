@@ -35,50 +35,92 @@ y=y+vsp;
 //Animation
 image_speed = 0;
 
-//moving
-if (mRight || mLeft){
-	image_speed = 1;
-	sprite_index = sprHomeBeanRun;
-	if (mLeft){
-		image_xscale = -1;
-	}
-	else{
-		image_xscale = 1;
-	}
+if room = beanHouse { 
+
+    //moving
+    if (mRight || mLeft){
+	    image_speed = 1;
+	    sprite_index = sprHomeBeanRun;
+	    if (mLeft){
+		    image_xscale = -1;
+	    }
+	    else{
+		    image_xscale = 1;
+	    }
+    }
+
+    //moving up
+    else if(vsp < 0){
+	    sprite_index = sprHomeBean;
+	    image_speed = 0;
+   	    image_index = 1;
+    }
+
+    //moving down
+    else if(vsp > 0){
+	    image_speed = 0;
+	    sprite_index = sprHomeBean;
+	    image_index = 2;
+    }
+    //sitting still
+    else if (moveH == 0 & moveV == 0){
+	    image_speed = 0;
+	    sprite_index = sprHomeBean;
+	    image_index = 0;
+    }
+
+
+    //moving up
+    if (vsp < 0){
+	    image_speed = 0;
+	    sprite_index = sprHomeBean;
+	    image_index = 1;
+    }
+
+    //moving down 
+    if (vsp > 0){
+	    image_speed = 0;
+	    sprite_index = sprHomeBean;
+	    image_index = 2;
+    }
 }
 
-//moving up
-else if(vsp < 0){
-	sprite_index = sprHomeBean;
-	image_speed = 0;
-	image_index = 1;
-}
+else {
+	//Animation
+    image_speed = 0;
 
-//moving down
-else if(vsp > 0){
-	image_speed = 0;
-	sprite_index = sprHomeBean;
-	image_index = 2;
-}
-//sitting still
-else if (moveH == 0 & moveV == 0){
-	image_speed = 0;
-	sprite_index = sprHomeBean;
-	image_index = 0;
-}
+    //moving
+    if (moveH != 0){
+	    image_speed = 1;
+	    sprite_index = sprAdvBeanRun2;
+	    if (mLeft){
+		    image_xscale = -1;
+	    }
+	    else{
+		    image_xscale = 1;
+	    }
+    }
+
+    //sitting still
+    if (moveH == 0 & moveV == 0){
+	    image_speed = 0;
+	    sprite_index = sprAdvBean;
+	    image_index = 0;
+    }
 
 
 
-//moving up
-if (vsp < 0){
-	image_speed = 0;
-	sprite_index = sprHomeBean;
-	image_index = 1;
-}
+    //moving up
+    if (vsp < 0){
+	    image_speed = 0;
+	    sprite_index = sprAdvBean;
+	    image_index = 1;
+    }
 
-//moving down
-if (vsp > 0){
-	image_speed = 0;
-	sprite_index = sprHomeBean;
-	image_index = 2;
+    //moving down
+    if (vsp > 0){
+	    image_speed = 0;
+	    sprite_index = sprAdvBean;
+	    image_index = 2;
+    }
 }
