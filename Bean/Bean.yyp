@@ -49,6 +49,7 @@
     {"id":{"name":"objFireBall","path":"objects/objFireBall/objFireBall.yy",},"order":13,},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":19,},
     {"id":{"name":"sprBeanSword","path":"sprites/sprBeanSword/sprBeanSword.yy",},"order":37,},
+    {"id":{"name":"objDoorway2","path":"objects/objDoorway2/objDoorway2.yy",},"order":14,},
     {"id":{"name":"sprWyvern","path":"sprites/sprWyvern/sprWyvern.yy",},"order":23,},
     {"id":{"name":"objWarp","path":"objects/objWarp/objWarp.yy",},"order":12,},
     {"id":{"name":"BeanVillage","path":"tilesets/BeanVillage/BeanVillage.yy",},"order":0,},
