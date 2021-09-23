@@ -3,7 +3,8 @@ mLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
 mRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
 mUp = keyboard_check(vk_up) || keyboard_check(ord("W"));
 mDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
-//key_jump = keyboard_check_pressed(vk_space);
+attack = keyboard_check_pressed(vk_space);
+
 
 //Calculate Movement
 var moveH = mRight - mLeft;
@@ -13,7 +14,40 @@ hsp = moveH*walksp;
 vsp = moveV*walksp;
 
 
-
+//Attacks
+if (attack) {
+	 if ( sprite_index != sprAdvBeanAtk){
+		if (sprite_index == sprAdvBean && image_index == 1){
+			sprite_index = sprBeanAtkUp;
+			image_index = 0;
+			image_speed = 1;
+		    var inst = instance_create_layer(x, y, "Instances", objShockwave)
+		    inst.direction = image_angle + 0.5;
+		}
+		else if (sprite_index == sprAdvBean && image_index == 2){
+			sprite_index = sprBeanAtkDown;
+			image_index = 0;
+			image_speed = 1;
+		    var inst = instance_create_layer(x, y, "Instances", objShockwave)
+		    inst.direction = image_angle - 0.5;
+		}
+		else if ((sprite_index == sprAdvBean) || (sprite_index == sprAdvBeanRun2 && image_angle = 1)){
+		    sprite_index = sprAdvBeanAtk;
+		    image_index = 0;
+			image_speed = 1;
+		    var inst = instance_create_layer(x, y, "Instances", objShockwave)
+		    inst.direction = image_angle;
+		}
+		else if (sprite_index == sprAdvBeanRun2 && image_angle = 1){
+		    sprite_index = sprAdvBeanAtk;
+		    image_index = 0;
+			image_angle = -1
+			image_speed = 1;
+		    var inst = instance_create_layer(x, y, "Instances", objShockwave)
+		    inst.direction = image_angle;
+		}
+	}
+}
 //Horizontal Collision
 if(place_meeting(x+hsp,y,objWallHome)){
 	while (!place_meeting(x+sign(hsp),y,objWallHome)){

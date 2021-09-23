@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "VillageEnemySprites",
+    "path": "folders/Sprites/VillageEnemySprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "VillageEnemy1",
