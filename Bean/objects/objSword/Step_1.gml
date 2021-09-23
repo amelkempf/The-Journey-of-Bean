@@ -1,3 +1,7 @@
+x = objBeanHome.x;
+y = objBeanHome.y + 10;
+
+
 //weapon stuff
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 firingdelay = firingdelay - 1;
