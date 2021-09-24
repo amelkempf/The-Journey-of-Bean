@@ -21,31 +21,45 @@ if (attack) {
 			sprite_index = sprBeanAtkUp;
 			image_index = 0;
 			image_speed = 1;
-		    var inst = instance_create_layer(x, y, "Instances", objShockwave)
-		    inst.direction = image_angle + 0.5;
+		    //var inst = instance_create_layer(x, y, "Instances", objShockwave)
+		    //inst.direction = image_angle + 0.5;
+			/*with (instance_create_layer(x, y, "Instances", objShockwave)){
+				speed = 5;
+				direction =  image_angle + 0.5;
+				image_angle = other.direction;
+			}*/
 		}
 		else if (sprite_index == sprAdvBean && image_index == 2){
 			sprite_index = sprBeanAtkDown;
 			image_index = 0;
 			image_speed = 1;
-		    var inst = instance_create_layer(x, y, "Instances", objShockwave)
-		    inst.direction = image_angle - 0.5;
+		    //var inst = instance_create_layer(x, y, "Instances", objShockwave)
+		    //inst.direction = image_angle - 0.5;
+			
 		}
 		else if ((sprite_index == sprAdvBean) || (sprite_index == sprAdvBeanRun2 && image_angle = 1)){
 		    sprite_index = sprAdvBeanAtk;
 		    image_index = 0;
 			image_speed = 1;
-		    var inst = instance_create_layer(x, y, "Instances", objShockwave)
-		    inst.direction = image_angle;
+		    //var inst = instance_create_layer(x, y, "Instances", objShockwave)
+		    //inst.direction = image_angle;
+			
 		}
 		else if (sprite_index == sprAdvBeanRun2 && image_angle = 1){
 		    sprite_index = sprAdvBeanAtk;
 		    image_index = 0;
 			image_angle = -1
 			image_speed = 1;
-		    var inst = instance_create_layer(x, y, "Instances", objShockwave)
-		    inst.direction = image_angle;
+		    //var inst = instance_create_layer(x, y, "Instances", objShockwave)
+		    //inst.direction = image_angle;
+			
 		}
+		with (instance_create_layer(x, y, "Instances", objShockwave)){
+				speed = 5;
+				direction =  image_index * 90;
+				image_angle = other.direction;
+		}
+		
 	}
 }
 //Horizontal Collision

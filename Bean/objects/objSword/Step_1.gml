@@ -1,5 +1,5 @@
 x = objBeanHome.x;
-y = objBeanHome.y + 10;
+y = objBeanHome.y;
 
 
 //weapon stuff
@@ -10,9 +10,8 @@ if (mouse_check_button(mb_left) and (firingdelay < 0))
 {
 	recoil = 4;
 	firingdelay = 5;
-	with (instance_create_layer(x,y,"FireBall",objFireBall))
-	{
-	speed = 25;	
+	with (instance_create_layer(x,y,"FireBall",objShockwave)){
+	speed = 5;	
 	direction = other.image_angle + random_range(-3,3);
 	image_angle = direction;
 	}
