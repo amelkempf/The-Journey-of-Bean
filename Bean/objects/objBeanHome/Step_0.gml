@@ -15,6 +15,7 @@ vsp = moveV*walksp;
 
 
 //Attacks
+/*
 if (attack) {
 	 if ( sprite_index != sprAdvBeanAtk){
 		if (sprite_index == sprAdvBean && image_index == 1){
@@ -27,7 +28,7 @@ if (attack) {
 				speed = 5;
 				direction =  image_angle + 0.5;
 				image_angle = other.direction;
-			}*/
+			}
 		}
 		else if (sprite_index == sprAdvBean && image_index == 2){
 			sprite_index = sprBeanAtkDown;
@@ -62,6 +63,7 @@ if (attack) {
 		
 	}
 }
+*/
 //Horizontal Collision
 if(place_meeting(x+hsp,y,objWallHome)){
 	while (!place_meeting(x+sign(hsp),y,objWallHome)){

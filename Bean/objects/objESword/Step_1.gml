@@ -9,7 +9,7 @@ image_yscale = abs(owner.image_yscale);
 
 if(instance_exists(objBeanHome)){
 	if (objBeanHome.x < x) image_yscale = -image_yscale;
-	if (point_distance(objBeanHome.x, objBeanHome.y, x, y) < 600){
+	//if (point_distance(objBeanHome.x, objBeanHome.y, x, y) < 100){
 		image_angle = point_direction(x, y, objBeanHome.x, objBeanHome.y);
 		countdown--;
 		if(countdown <= 0){
@@ -17,11 +17,15 @@ if(instance_exists(objBeanHome)){
 				countdown = countdownrate;
 				with (instance_create_layer(x,y,"FireBall",objFireBall))
 					{
-					speed = 1;	
-					direction = other.image_angle + random_range(-3,3);
+					speed = 1;
+					mysign = -1;
+					if ((other.image_angle - 180) < 0 ){
+						mysign = 1;
+					}
+					direction = mysign * 90;
 					image_angle = direction;
 					}
 			}
 		}
-	}
+	//}
 }
