@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-follow = true;
-objBeanHome.Pip = true;
+game_set_speed(60, gamespeed_fps);

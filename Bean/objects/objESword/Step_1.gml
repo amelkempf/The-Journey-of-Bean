@@ -15,16 +15,27 @@ if(instance_exists(objBeanHome)){
 		if(countdown <= 0){
 			if (!collision_line(x, y, objBeanHome.x, objBeanHome.y, objWallHome, false, false)){
 				countdown = countdownrate;
-				with (instance_create_layer(x,y,"FireBall",objFireBall))
-					{
+				with (instance_create_layer(x,y,"FireBall",objFireBall)){
 					speed = 1;
 					mysign = -1;
-					if ((other.image_angle - 180) < 0 ){
-						mysign = 1;
+					
+					
+					if (room == TransitionRoom){
+						if ((other.image_angle - 180) < 0 ){
+							mysign = 1;
+						}
+						direction = mysign * 90;
 					}
-					direction = mysign * 90;
+					else{
+						if (other.image_angle> 90 && other.image_angle < 270){
+							direction = mysign * 180;
+						}
+						else{
+							direction = mysign * 360;
+						}
+					}
 					image_angle = direction;
-					}
+				}
 			}
 		}
 	//}

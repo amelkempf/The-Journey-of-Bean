@@ -15,15 +15,21 @@
   "layers": [
     {"instances":[
         {"properties":[
-            {"propertyId":{"name":"text","path":"objects/objMag/objMag.yy",},"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"value":"\"Enemies are attacking!\\nShoot em with your sword!\\nAvoid their fireballs!\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"text","path":"objects/objMag/objMag.yy",},"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"value":"\"Enemies are attacking!\\nShoot em with your sword!\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":320.0,"resourceVersion":"1.0","name":"inst_6306E5B2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/objMag/objMag.yy",},"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"value":"\"Collect your 3 friends!\\n Kill the enemies!\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":320.0,"resourceVersion":"1.0","name":"inst_9154CC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/objMag/objMag.yy",},"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"value":"\"Once you have your 3 friends,\\nthis way ->\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":256.0,"resourceVersion":"1.0","name":"inst_6B2DF94F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Text","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Sword","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"FireBall","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objVillageEnemies","path":"objects/objVillageEnemies/objVillageEnemies.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":216.0,"resourceVersion":"1.0","name":"inst_10A20788","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"hasweapon","path":"objects/objVillageEnemies/objVillageEnemies.yy",},"objectId":{"name":"objVillageEnemies","path":"objects/objVillageEnemies/objVillageEnemies.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"hasweapon","path":"objects/objVillageEnemies/objVillageEnemies.yy",},"objectId":{"name":"objVillageEnemies","path":"objects/objVillageEnemies/objVillageEnemies.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"objVillageEnemies","path":"objects/objVillageEnemies/objVillageEnemies.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":600.0,"y":224.0,"resourceVersion":"1.0","name":"inst_70F6B02D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objVillageEnemies","path":"objects/objVillageEnemies/objVillageEnemies.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":360.0,"y":392.0,"resourceVersion":"1.0","name":"inst_945BE55","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objVillageEnemies","path":"objects/objVillageEnemies/objVillageEnemies.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":776.0,"y":360.0,"resourceVersion":"1.0","name":"inst_278F0E5F","tags":[],"resourceType":"GMRInstance",},
@@ -606,6 +612,8 @@
     {"name":"inst_5A047F13","path":"rooms/Village1/Village1.yy",},
     {"name":"inst_7D66CD11","path":"rooms/Village1/Village1.yy",},
     {"name":"inst_6306E5B2","path":"rooms/Village1/Village1.yy",},
+    {"name":"inst_9154CC","path":"rooms/Village1/Village1.yy",},
+    {"name":"inst_6B2DF94F","path":"rooms/Village1/Village1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

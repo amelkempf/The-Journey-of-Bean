@@ -3,7 +3,7 @@ mLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
 mRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
 mUp = keyboard_check(vk_up) || keyboard_check(ord("W"));
 mDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
-attack = keyboard_check_pressed(vk_space);
+//attack = keyboard_check_pressed(vk_space);
 
 
 //Calculate Movement
@@ -74,7 +74,7 @@ if(place_meeting(x+hsp,y,objWallHome)){
 x = x+hsp;
 
 //Vertical Collision
-if(place_meeting(x, y+vsp, objWallHome)){
+if(place_meeting(x, y+vsp, objWallHome) || place_meeting(x, y+vsp, objBridgeEdge)){
 	/*while(!place_meeting(x,y+sign(vsp),objWallHome)){
 		y=y+vsp;
 	}*/
@@ -173,4 +173,8 @@ else {
 	    sprite_index = sprAdvBean;
 	    image_index = 2;
     }
+}
+
+if (Puff && Pip && Fizz){
+	friends = true;
 }

@@ -2,8 +2,15 @@
 // You can write your code in this editor
 
 lives -= 1;
-x = 560;
-y = 310;
+
+if (room == TransitionRoom){
+	x = 10;
+	y = 170;
+}
+if (room == BossRoom){
+	x = 150;
+	y = 400;
+}
 
 if (lives <= 0){
 	with (objSword) instance_destroy();
