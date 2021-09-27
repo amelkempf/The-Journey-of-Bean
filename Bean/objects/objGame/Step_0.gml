@@ -11,8 +11,11 @@ if(keyboard_check_pressed(vk_enter)){
 			game_restart()
 		}
 }
-if(room == beanHouse or TransitionRoom or BossRoom or Village1) {
-if(lives <= 0){
-	room_goto(GameOverRoom)
+if(room == TransitionRoom or room == BossRoom or room == Village1) {
+    if(lives <= 0){
+	    room_goto(GameOverRoom)
 	}
+}
+if(room == BossRoom & enemy_lives <= 0) {
+    room_goto(WinRoom)
 }

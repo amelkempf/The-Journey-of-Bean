@@ -6,7 +6,7 @@ y = objBeanHome.y;
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil - 1);
-if (mouse_check_button(mb_left) and (firingdelay < 0))
+if ((mouse_check_button(mb_left) and (firingdelay < 0))||(keyboard_check_pressed(vk_space) and (firingdelay < 0)))
 {
 	recoil = 4;
 	firingdelay = 5;

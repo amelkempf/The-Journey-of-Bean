@@ -6,9 +6,6 @@
 lives -=1;
 
 
-x = 560;
-y = 310;
-
 if (lives <= 0){
 	with (objSword) instance_destroy();
 
