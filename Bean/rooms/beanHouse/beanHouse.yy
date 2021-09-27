@@ -14,19 +14,16 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[
-            {"propertyId":{"name":"text","path":"objects/objMag/objMag.yy",},"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"value":"\"Who did this?!\\n Someone left a sword!\\nLet's grab it!\\n\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":160.0,"resourceVersion":"1.0","name":"inst_7B7D1A78","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"objGame","path":"objects/objGame/objGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_41EC0FEA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objMag","path":"objects/objMag/objMag.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":160.0,"resourceVersion":"1.0","name":"inst_1B3B7619","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Text","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"objSwordPickup","path":"objects/objSwordPickup/objSwordPickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":64.0,"resourceVersion":"1.0","name":"inst_E1169D5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objESword","path":"objects/objESword/objESword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":64.0,"resourceVersion":"1.0","name":"inst_165878AD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Sword","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"objBeanHome","path":"objects/objBeanHome/objBeanHome.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":160.0,"resourceVersion":"1.0","name":"inst_95A053E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objDoorway","path":"objects/objDoorway/objDoorway.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":190.0,"resourceVersion":"1.0","name":"inst_1909C57B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objDoorway","path":"objects/objDoorway/objDoorway.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":152.0,"y":190.0,"resourceVersion":"1.0","name":"inst_18554728","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objSwordPickup","path":"objects/objSwordPickup/objSwordPickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":328.0,"y":64.0,"resourceVersion":"1.0","name":"inst_44D91B38","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objBeanHome","path":"objects/objBeanHome/objBeanHome.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":104.0,"y":132.0,"resourceVersion":"1.0","name":"inst_29AD9480","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":2,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"MainCharacter","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"sprWindowType1","path":"sprites/sprWindowType1/sprWindowType1.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_27800055","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -353,16 +350,15 @@
     {"name":"inst_49B1A50B","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_2DB70ED3","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_2A9451F6","path":"rooms/beanHouse/beanHouse.yy",},
-    {"name":"inst_95A053E","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_1169DE1C","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_306D97E1","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_37AF619B","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_1909C57B","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_18554728","path":"rooms/beanHouse/beanHouse.yy",},
     {"name":"inst_44D91B38","path":"rooms/beanHouse/beanHouse.yy",},
-    {"name":"inst_E1169D5","path":"rooms/beanHouse/beanHouse.yy",},
-    {"name":"inst_7B7D1A78","path":"rooms/beanHouse/beanHouse.yy",},
-    {"name":"inst_41EC0FEA","path":"rooms/beanHouse/beanHouse.yy",},
+    {"name":"inst_1B3B7619","path":"rooms/beanHouse/beanHouse.yy",},
+    {"name":"inst_165878AD","path":"rooms/beanHouse/beanHouse.yy",},
+    {"name":"inst_29AD9480","path":"rooms/beanHouse/beanHouse.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
