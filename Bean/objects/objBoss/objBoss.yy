@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprBoss",
-    "path": "sprites/sprBoss/sprBoss.yy",
+    "name": "sprWyvern",
+    "path": "sprites/sprWyvern/sprWyvern.yy",
   },
   "solid": false,
   "visible": true,
