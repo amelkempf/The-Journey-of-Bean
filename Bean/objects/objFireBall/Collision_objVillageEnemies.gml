@@ -1,6 +1,6 @@
 with (other)
 {
-hp = hp - 1;
+hp -= 1;
 flash = 3;
 
 }

@@ -3,7 +3,10 @@
 
 //KillPlayer();
 
-lives -=1;
+lives --;
+
+x += 20;
+y -= 20;
 
 
 if (lives <= 0){

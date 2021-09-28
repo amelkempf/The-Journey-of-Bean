@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-lives -= 1;
+lives --;
 
 if (room == TransitionRoom){
 	x = 10;

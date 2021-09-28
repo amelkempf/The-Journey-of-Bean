@@ -1,6 +1,7 @@
 hsp = 0;
 vsp = 0;
 walksp = 2;
+lives = 5;
 
 //weapon stuff
 firingdelay = 0;

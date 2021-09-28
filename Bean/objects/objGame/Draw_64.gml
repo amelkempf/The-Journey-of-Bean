@@ -35,7 +35,7 @@ switch(room){
 	case GameOverRoom:
 		draw_set_font(fSign2);
 		draw_text(550, 300,
-						"You died!"
+						"Your village has been destroyed by the Evil Frog"
 					);
 		draw_text(550, 400,
 						"PRESS ENTER TO RESTART"

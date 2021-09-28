@@ -11,11 +11,17 @@ if(keyboard_check_pressed(vk_enter)){
 			game_restart()
 		}
 }
-if(room == TransitionRoom or room == BossRoom or room == Village1) {
-    if(lives <= 0){
-	    room_goto(GameOverRoom)
-	}
+
+/*if((room == TransitionRoom || room == BossRoom || room == Village1) && lives <= 0) {
+	room_goto(GameOverRoom)	
 }
-if(room == BossRoom & enemy_lives <= 0) {
+if(room == BossRoom && lives <= 0) {
+	room_goto(GameOverRoom)	
+}
+if(room == Village1 && lives <= 0) {
+	room_goto(GameOverRoom)	
+}
+
+if(room == BossRoom & global.enemy_lives <= 0) {
     room_goto(WinRoom)
-}
+}*/

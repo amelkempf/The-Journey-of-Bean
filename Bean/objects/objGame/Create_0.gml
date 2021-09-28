@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-lives = 3;
-enemy_lives = 15;
+lives = 5;
+global.enemy_lives = 20;
 
 draw_set_font(fSign2);
