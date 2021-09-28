@@ -12,19 +12,21 @@ if(keyboard_check_pressed(vk_enter)){
 		}
 }
 
-
-if((room == TransitionRoom || room == BossRoom || room == Village1) && lives <= 0) {
-	room_goto(GameOverRoom)	
-}
-
-/*if(room == BossRoom && lives <= 0) {
-	room_goto(GameOverRoom)	
-}
 /*
+|| room == BossRoom || room == Village1)
+*/
+if(room == TransitionRoom && lives <= 0) {
+	room_goto(GameOverRoom)	
+}
+
+if(room == BossRoom && lives <= 0) {
+	room_goto(GameOverRoom)	
+}
+
 if(room == Village1 && lives <= 0) {
 	room_goto(GameOverRoom)	
 }
-*/
+
 if(room == BossRoom && global.enemy_lives <= 0) {
     room_goto(WinRoom)
 }
