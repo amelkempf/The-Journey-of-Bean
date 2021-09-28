@@ -24,7 +24,7 @@ switch(room){
 	case StartRoom:
 		draw_set_font(fSign2);
 		draw_text(550, 300,
-						"The Adventures of Bean"
+						"The Journey of Bean"
 					);
 		draw_text(550, 400,
 						"PRESS ENTER TO START"
