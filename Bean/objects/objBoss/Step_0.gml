@@ -10,7 +10,7 @@ if ( time <= 0 ){
 	speed = 5;	
 	direction = other.image_angle;
 	}
-	with (instance_create_layer(x,y,"Player", objFireBall)){
+	/*with (instance_create_layer(x,y,"Player", objFireBall)){
 	speed = 5;	
 	direction = other.image_angle + 0.25;
 	}
@@ -21,7 +21,7 @@ if ( time <= 0 ){
 	with (instance_create_layer(x,y,"Player", objFireBall)){
 	speed = 5;	
 	direction = other.image_angle + 0.75;
-	}
+	}*/
 	time += 100
 }
 time--;

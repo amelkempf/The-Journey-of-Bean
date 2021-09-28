@@ -1,8 +1,8 @@
 //Going after bean
-if(distance_to_object(objBeanHome) < 25) {
+if(distance_to_object(objBeanHome) < 100) {
 	move_towards_point(objBeanHome.x, objBeanHome.y, .25);
 }
-else if(distance_to_object(objBeanHome) > 50) {
+else if(distance_to_object(objBeanHome) > 100) {
 	x = x
 	y = y
 	speed = 0;

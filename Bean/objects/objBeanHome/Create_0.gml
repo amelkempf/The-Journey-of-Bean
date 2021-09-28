@@ -1,6 +1,6 @@
 hsp = 0;
 vsp = 0;
-walksp = 2;
+walksp = 3;
 lives = 5;
 
 //weapon stuff
