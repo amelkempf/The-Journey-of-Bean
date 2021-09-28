@@ -26,6 +26,9 @@ if(instance_exists(objBeanHome)){
 						}
 						direction = mysign * 90;
 					}
+					/*if (owner == objBoss){
+						direction = other.image_angle;
+					}*/
 					else{
 						if (other.image_angle> 90 && other.image_angle < 270){
 							direction = mysign * 180;
