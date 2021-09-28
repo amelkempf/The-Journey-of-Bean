@@ -102,10 +102,10 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
+    {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
     {"roomId":{"name":"beanHouse","path":"rooms/beanHouse/beanHouse.yy",},},
     {"roomId":{"name":"Village1","path":"rooms/Village1/Village1.yy",},},
     {"roomId":{"name":"TransitionRoom","path":"rooms/TransitionRoom/TransitionRoom.yy",},},
-    {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
     {"roomId":{"name":"GameOverRoom","path":"rooms/GameOverRoom/GameOverRoom.yy",},},
     {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
   ],
